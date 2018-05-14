@@ -4,6 +4,21 @@
   "description": "Makes only the best dad jokes.",
   "main": "dadbot.js",
   "author": "soulsound",
-  "repository": "none",
-  "license": "none"
+  "license": "MIT",
+  "engines": {
+  	"node": "8.x",
+  	"npm": "*"
+  },
+  "repository": {
+  	"type": "git",
+  	"url": "git+https://github.com/animasonus/Dadbot"
+  },
+  "keywords": [
+  	"heroku",
+  	"discord.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dadbot.js"
+  },
 }
